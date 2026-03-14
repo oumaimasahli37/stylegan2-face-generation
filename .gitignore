@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Environnements virtuels
+venv/
+env/
+.env
+.venv/
+
+# macOS
+.DS_Store
+__MACOSX/
+
+# Modèle préentraîné (très lourd ~300MB — ne pas uploader)
+pretrained/
+*.pkl
+
+# Dépôt StyleGAN2-ADA cloné dynamiquement — ne pas uploader
+stylegan2-ada-pytorch/
+
+# Fichiers générés (images & vidéos — très volumineux)
+interpolation/
+sample_data/
+*.avi
+*.mp4
+*.png
+*.jpg
+
+# Logs & checkpoints
+*.log
+runs/
+wandb/
